@@ -180,5 +180,5 @@ def deleteEmpty(folderDir):
                 os.rmdir(os.path.join(folderDir,folder))
         except OSError:
             continue
-
-organizefolder("C:\\Users\\PHIRIS\Desktop\\Waza\\pythonStuff\\file cleaner")
+#the argument passed for this function should be that of the folder you want to organize leave empty if you are cleaning the current file
+organizefolder(os.getcwd())
